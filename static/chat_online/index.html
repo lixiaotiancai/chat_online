@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>chat_online</title>
+  <link rel="stylesheet" href="/chat_online/css/reset.css">
+  <link rel="stylesheet" href="/chat_online/css/common.css">
+  <link rel="stylesheet" href="/chat_online/css/chat_online.css">
+</head>
+<body>
+<main class="chat-container">
+  <section class="chat-box">
+    <div class="chat-userinfo-container">
+      <div class="current-user-wrapper hidden">
+        <span class="current-user-name"></span>
+        <a class="user-logout" href="javascript:void(0)">注销</a>
+      </div>
+      <div class="unlogin-user-wrapper">
+        <a class="user-login" href="javascript:void(0)">登录/注册</a>
+      </div>
+      <div class="notify-link-wrapper hidden">
+        <a class="notify-link" href="javascript:void(0)">发布公告</a>
+      </div>
+    </div>
+    <div class="chat-main">
+      <div class="chat-view-wrapper">
+        <div class="chat-view"></div>
+      </div>
+      <div class="chat-input-container">
+        <div class="input-area-wrapper">
+          <div class="input-area-disable-panel">
+            <span>请先登录哦~</span>
+          </div>
+          <div class="input-area" contenteditable="true">
+          </div>
+          <div class="input-send-btn">发送(S)</div>
+        </div>
+      </div>
+    </div>
+    <div class="chat-aside">
+      <div class="tag-header-wrapper">
+        <div class="tag-header-item tag-current">
+          <span class="header-item-tt">在线人数:</span><span class="online header-item-content"></span>
+        </div>
+        <div class="tag-header-item">
+          <span class="header-item-tt">注册人数:</span><span class="sign header-item-content"></span>
+        </div>
+      </div>
+      <div class="tag-body">
+        <div class="online tag-body-content"></div>
+        <div class="sign tag-body-content hidden"></div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="/chat_online/js/common.js"></script>
+<script src="/chat_online/js/ws.js"></script>
+<script src="/chat_online/js/user.js"></script>
+<script src="/chat_online/js/index.js"></script>
+</body>
+</html>

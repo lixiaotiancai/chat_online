@@ -1,0 +1,24 @@
+{
+  "name": "self-website of lixiao",
+  "version": "1.0.0",
+  "description": "this is my final mission",
+  "main": "index.js",
+  "dependencies": {
+    "blueimp-md5": "^2.10.0",
+    "etag": "^1.8.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-limit": "^1.0.2",
+    "koa-router": "^7.2.1",
+    "koa-send": "^5.0.0",
+    "koa-static": "^4.0.1",
+    "mongoose": "^5.2.18",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lixiao",
+  "license": "ISC"
+}
